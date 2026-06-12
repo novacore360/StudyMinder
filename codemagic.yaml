@@ -25,7 +25,7 @@ workflows:
       - app/build/outputs/**/*.aab
     publishing:
       email:
-        recipients: jamesbryllefahardo@gmail.com
+        recipients: [jamesbryllefahardo@gmail.com]
         notify:
           success: true
           failure: true
